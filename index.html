@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Congressional Representative</title>
+</head>
+<body>
+  <article class="rep">
+
+    <!-- Representative Image -->
+    <section class="rep__image">
+      <img src="https://www.govtrack.us/static/legislator-photos/412837-100px.jpeg" alt="Photo" class="img-responsive">
+    </section>
+    
+    <!-- Give the following it's own column -->
+    <div>
+
+      <!-- Representative Name -->
+      <section class="rep__name">
+        <h2>Carol Miller</h2>
+      </section>
+
+      <!-- Representative District Info -->
+      <section class="rep__district-info">
+        Representative for West Virginia's 3rd congressional district
+      </section>
+
+      <!-- Representative Political Affiliation -->
+      <section class="rep__political-affiliation">
+        Republican
+      </section>
+
+    </div>
+
+    
+    
+
+    <!-- Give the following it's own column -->
+
+    <div>
+
+      <!-- Representative Committees -->
+      <section class="rep__committees">
+        <div class="badge">Committees</div>
+        <a href="https://www.govtrack.us/congress/committees/HSCN">House Select Committee on the Climate Crisis</a>
+        <a href="https://www.govtrack.us/congress/committees/HSWM">House Committee on Ways and Means</a>
+        <div class="badge">Subcommittees</div>
+        <!-- subcommittees get another layer of flex -->
+        <div class="row">
+          <a href="https://www.govtrack.us/congress/committees/HSWM/04">Trade</a>
+          <a href="https://www.govtrack.us/congress/committees/HSWM/03">Worker and Family Support</a>
+        </div>
+      </section>
+
+      <!-- Representative Legislation -->
+      <section class="rep__legislation">
+        <div class="badge">Enacted Legislation</div>
+        <a href="https://www.govtrack.us/congress/bills/116/hr3362">H.R. 3362 (116th): Small Airport Mothers’ Rooms Act of 2019</a>
+        <a href="https://www.govtrack.us/congress/bills/116/hr4610">H.R. 4610 (116th): New River Gorge National Park and Preserve Designation Act</a>
+      </section>
+
+      <!-- Representative Contact Information -->
+
+      <div class="badge">Contact</div>
+      <div class="row">
+        <section class="rep__social">
+          <a href="https://twitter.com/@RepCarolMiller">@RepCarolMiller</a>
+        </section>
+        <section class="rep__website">
+          <a href="https://miller.house.gov/">Official Website</a>
+        </section>
+        <section class="rep__phone">
+          <a href="tel:+1-202-225-3452">202-225-3452</a>
+        </section>
+      </div>
+      
+    </div>
+
+  </article>
+</body>
+</html>
